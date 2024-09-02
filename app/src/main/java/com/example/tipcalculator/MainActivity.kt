@@ -72,10 +72,10 @@ fun TipCalculatorLayout() {
         modifier = Modifier
             .statusBarsPadding()
             .padding(horizontal = 40.dp)
-      //      .verticalScroll(rememberScrollState())
-     //       .safeDrawingPadding(),
-     //   horizontalAlignment = Alignment.CenterHorizontally,
-     //   verticalArrangement = Arrangement.Center
+            .verticalScroll(rememberScrollState())
+            .safeDrawingPadding(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
         Text(
             text = stringResource(R.string.calculate_tip),
